@@ -1,0 +1,66 @@
+section.map-block-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0 20px 0px;
+}
+
+section.map-block-container h2{
+  border-bottom: 2px solid var(--main-color);
+  align-self: normal;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+section.map-block-container p {
+  align-self: normal;
+  padding: 10px;
+}
+
+.leaflet-container {
+  width: 95vw;
+  height: 40vh;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+/* ==============================
+   ==============================
+            BREAKPOINTS
+   ============================== 
+   ============================== */
+
+/*TABLETS*/
+
+@media only screen and (min-width: 481px) {
+
+  section.map-block-container h2{
+    padding-left: 35px;
+  }
+  
+  section.map-block-container p {
+    padding-left: 35px;
+  }
+  
+  .leaflet-container {
+    width: 90vw;
+  }
+}
+
+/* DESKTOP*/
+
+@media only screen and (min-width: 1201px) {
+
+  section.map-block-container h2{
+    padding-left: 47px;
+  }
+  
+  section.map-block-container p {
+    padding-left: 47px;
+  }
+  
+  .leaflet-container {
+    width: 95vw;
+    height: 60vh;
+  }
+}

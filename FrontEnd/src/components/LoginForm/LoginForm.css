@@ -1,0 +1,113 @@
+:root {
+  --main-color: #fbc02d;
+  --text-color: #263238;
+  --link-color: #4285F4;
+}
+
+main {
+  min-height: calc(100vh - 0px - 58px);
+}
+
+section.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8em;
+}
+
+section.login h1 {
+  color: var(--main-color);
+  margin: 20px 0 100px 0;
+}
+
+form.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form.login-form label {
+  font-weight: 500;
+  color: var(--text-color);
+  text-align: start;
+  margin-bottom: 8px;
+}
+
+form.login-form label.login-password-label {
+  margin-top: 16px;
+}
+
+form.login-form input {
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  height: 40px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.error-login {
+  color: red;
+  width: 300px;
+  text-align: center;
+  margin-top: 123px;
+  position: absolute;
+}
+
+button.login-button {
+  font-weight: bold;
+  color: #ffffff;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+  background: var(--main-color);
+  margin-top: 52px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+button.login-button:hover {
+  background: #e9b527;
+}
+
+section.login p.register-anchor {
+  margin-top: 7px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+section.login p a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+@media only screen and (min-width: 768px) {
+  /* For Tablet: */
+  form.login-form input {
+    width: 346px;
+  }
+
+  .error-login {
+    width: 346px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* For Desktop: */
+  form.login-form input {
+    width: 448px;
+  }
+
+  .error-login {
+    width: 448px;
+  }
+  
+  button.login-button {
+    width: 206px;
+  }
+
+  form button:first-of-type {
+    align-self: center;
+  }
+}

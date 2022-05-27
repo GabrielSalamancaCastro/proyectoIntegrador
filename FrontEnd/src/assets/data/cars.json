@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "img": "https://images.unsplash.com/photo-1583427053896-00378e61e661?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
+    "category": "Autos Deportivos",
+    "title": "Porsche 911 GT2 RS",
+    "location": "San Francisco, California",
+    "description": "Porsche 911 GT2 RS"
+  },
+
+  {
+    "id": "2",
+    "img": "https://images.unsplash.com/photo-1617434108848-6a1e827124ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80",
+    "category": "Autos Deportivos",
+    "title": "Ferrari 458 Italia",
+    "location": "Seattle, Washington",
+    "description": "Ferrari 458 Italia"
+  },
+
+  {
+    "id": "3",
+    "img": "https://images.unsplash.com/photo-1589148938909-4d241c91ee52?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
+    "category": "Autos de Lujo",
+    "title": "Cadillac ATS",
+    "location": "Nueva York, Nueva York",
+    "description": "Cadillac ATS"
+  },
+
+  {
+    "id": "4",
+    "img": "https://images.unsplash.com/photo-1630378246381-c2f063b20084?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
+    "category": "Autos de Lujo",
+    "title": "Bentley Mulsanne",
+    "location": "Los Ángeles, California",
+    "description": "Bentley Mulsanne"
+  },
+
+  {
+    "id": "5",
+    "img": "https://images.unsplash.com/photo-1622893288761-823ba60f17a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2128&q=80",
+    "category": "Autos Económicos",
+    "title": "Toyota Prado",
+    "location": "Detroit, Michigan",
+    "description": "Toyota Prado"
+  },
+
+  {
+    "id": "6",
+    "img": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2159&q=80",
+    "category": "Autos Económicos",
+    "title": "Jeep Rubicon",
+    "location": "Las Vegas, Nevada",
+    "description": "Jeep Rubicon"
+  },
+
+  {
+    "id": "7",
+    "img": "https://www.elcarrocolombiano.com/wp-content/uploads/2020/03/20200313-CHEVROLET-TRAVERSE-2021-01.jpg",
+    "category": "Autos Familiares",
+    "title": "Chevrolet Traverse",
+    "location": "Seattle, Washington",
+    "description": "Chevrolet Traverse"
+  },
+
+  {
+    "id": "8",
+    "img": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/05/20190521-FORD-EDGE-ST-COLOMBIA-PRECIO-CARACTERISTICAS-01.jpg",
+    "category": "Autos Familiares",
+    "title": "Ford Edge",
+    "location": "Nueva York, Nueva York",
+    "description": "Ford Edge"
+  }
+]

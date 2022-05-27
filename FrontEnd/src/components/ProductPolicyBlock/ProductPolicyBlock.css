@@ -1,0 +1,192 @@
+/* =====================================================
+                    POLICY CONTAINER
+===================================================== */
+
+section.policy-container h2 {
+    /*Display & Box Model*/
+    border-bottom: 2px solid var(--main-color);
+    padding: 1em .6em .2em;
+    
+    /*Otros*/
+    font-size: 1.3rem;
+    color: var(--third-color);
+}
+
+section div h3 {
+    /*Display & Box Model*/
+    padding-bottom: 1em;
+
+    /*Otros*/
+    color: var(--third-color);
+}
+
+/* =====================================================
+                    RULES CONTAINER
+===================================================== */
+
+div.rules-container {
+    /*Display & Box Model*/
+    padding: 1.2em 1.6em .8em;
+    width: 90%;
+}
+    
+div.rules-container p {
+    /*Display & Box Model*/
+    padding-bottom: 1em;
+
+    /*Otros*/
+    color: #607d8b;
+    text-align: justify;
+}
+
+/* =====================================================
+                    SECURITY CONTAINER
+===================================================== */
+
+div.security-container {
+    /*Display & Box Model*/
+    padding: 1.2em 1.6em .8em;
+    width: 90%;
+}
+
+div.security-container p {
+    /*Display & Box Model*/
+    padding-bottom: 1em;
+
+    /*Otros*/
+    color: #607d8b;
+    text-align: justify;
+}
+
+/* =====================================================
+                    CANCELLATION CONTAINER
+===================================================== */
+
+div.cancellation-container {
+    /*Display & Box Model*/
+    padding: 1.2em 1.6em .8em;
+    width: 90%;
+}
+
+div.cancellation-container p {
+    /*Display & Box Model*/
+    padding-bottom: 1em;
+
+    /*Otros*/
+    color: #607d8b;
+    text-align: justify;
+}
+
+
+/* ==============================
+   ==============================
+            BREAKPOINTS
+   ============================== 
+   ============================== */
+
+/*TABLETS*/
+
+@media (min-width: 480px) and (max-width: 590px) {
+
+    section.policy-container {
+        width: 100vw;
+    }
+
+    section.policy-container h2 {
+        padding-left: 1.3em;
+    }
+   
+    div.flex-container__tablet-mini {
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    div.rules-container {
+        width: 100%;
+    }
+
+    div.security-container, div.cancellation-container {
+        width: 50%;
+        text-align: left;
+    }
+
+    div.security-container p {
+        text-align: left;    
+    }
+    
+    div.cancellation-container p{
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 591px) {
+
+    section.policy-container h2 {
+        padding-left: 1.6em;
+    }
+
+    .flex-container__tablet-big {
+        display: flex;
+    }
+
+    div.rules-container {
+        /*Display & Box Model*/
+        padding: 1.2em 2.6em 0 2em;
+    }
+
+    div.security-container, div.cancellation-container {
+        padding: 1.2em 2em 0 0 ;
+    }
+
+    div.rules-container, div.flex-container__tablet-mini {
+        width: 50%;
+    }
+
+    .policy-container .rules-container p {
+        text-align: left; 
+    }
+
+    .policy-container .security-container p {
+        text-align: left; 
+    }
+
+    .policy-container .cancellation-container p {
+        text-align: left; 
+    }
+    
+}
+
+
+
+/* DESKTOP*/
+
+@media (min-width: 1200px) {
+
+    section.policy-container {
+        width: 100vw;
+    }
+
+    section.policy-container h2 {
+        padding-left: 2.5em;
+    }
+
+
+    div.flex-container__tablet-mini {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    div.rules-container {
+        padding-left: 3em;
+        width: 45%;
+    }
+
+    div.security-container, div.cancellation-container {
+        width: 50%;
+        padding-left: 2em;
+    }
+
+}
+

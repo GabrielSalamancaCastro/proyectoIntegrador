@@ -1,0 +1,126 @@
+:root {
+  --main-color: #fbc02d;
+  --text-color: #263238;
+  --link-color: #4285F4;
+}
+
+section.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4.5em 0;
+}
+
+section.register h1 {
+  color: var(--main-color);
+  margin: 10px 0 30px 0;
+}
+
+form.register-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form.register-form div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form.register-form label {
+  font-weight: 500;
+  color: var(--text-color);
+  text-align: start;
+  margin-bottom: 8px;
+}
+
+.register-repassword-label, .register-password-label, .register-email-label, .register-lastname-label {
+  margin-top: 16px;
+}
+
+form.register-form input {
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  height: 40px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.error-register {
+  width: 300px;
+  color: red;
+}
+
+button.register-button {
+  font-weight: bold;
+  color: #ffffff;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+  background: var(--main-color);
+  margin-top: 48px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+button.register-button:hover {
+  background: #e9b527;
+}
+
+section.register p.login-anchor {
+  margin-top: 7px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+section.register p a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+@media only screen and (min-width: 768px) {
+  /* For Tablet: */
+  form.register-form input {
+    width: 346px;
+  }
+
+  .error-register {
+    width: 346px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* For Desktop: */
+  
+  form.register-form div.name-lastname {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  label.register-name-label {
+    margin-top: 16px;
+  }
+  
+  form.register-form input {
+    width: 448px;
+  }
+
+  div.name-lastname input.register-name, div.name-lastname input.register-lastname {
+    width: 216px;
+  }
+
+  .error-register {
+    width: 448px;
+  }
+  
+  button.register-button {
+    width: 206px;
+  }
+
+  form button:first-of-type {
+    align-self: center;
+  }
+}
